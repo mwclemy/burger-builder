@@ -22,7 +22,6 @@ const asyncOrders = asyncComponent(() => {
 class App extends Component {
   componentDidMount () {
     this.props.onCheckAuthState();
-
   }
   render () {
     let routes = (
